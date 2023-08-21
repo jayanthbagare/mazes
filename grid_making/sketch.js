@@ -7,6 +7,7 @@ function setup(){
     this.h = height;
     this.grid = new Grid(this.w,this.h,6);
     this.grid.populate_grid();
+    this.grid.make_maze();
 }
 
 function draw(){
