@@ -1,6 +1,6 @@
 let w = 0;
 let h = 0;
-
+let grid;
 function setup(){
     createCanvas(600,600);
     this.w = width;
